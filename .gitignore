@@ -2,3 +2,4 @@ main
 *.mod 
 *.o 
 *.hi
+!day_one
