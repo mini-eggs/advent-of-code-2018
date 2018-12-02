@@ -26,7 +26,7 @@ module advent_of_code
         open (1, file = 'input.txt', status = 'old')
     
         do i = 1,size(input)  
-        read(1,*) input(i)
+            read(1,*) input(i)
         end do 
         
         close(1)

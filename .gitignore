@@ -3,3 +3,4 @@ main
 *.o 
 *.hi
 !day_one
+!day_two
