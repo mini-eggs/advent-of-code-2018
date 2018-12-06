@@ -105,8 +105,6 @@ int get_sleepiest_minute(guard_t item)
     return sleepiest.first;
 }
 
-
-
 int main() 
 {
     std::string line;
