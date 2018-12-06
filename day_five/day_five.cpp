@@ -79,14 +79,10 @@ int part_two(std::string str)
         auto curr = str;
         auto letter = uni.at(i);
 
-        std::cout<<"letter: "<<letter<<", string size: "<<curr.length()<<std::endl;
-
         curr.erase(std::remove(curr.begin(), curr.end(), std::tolower(letter)), curr.end());
         curr.erase(std::remove(curr.begin(), curr.end(), std::toupper(letter)), curr.end());
         
         auto res = part_one(curr).length();
-
-        std::cout<<res<<" : "<<lowest<<std::endl;
 
         if(res < lowest)
         {
