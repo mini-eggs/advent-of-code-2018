@@ -4,3 +4,4 @@ main
 *.hi
 !day_one
 !day_two
+!day_four
